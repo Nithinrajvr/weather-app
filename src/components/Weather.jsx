@@ -18,7 +18,7 @@ const Weather = () => {
     key: "Enter your API key here",
     base: "https://api.openweathermap.org/data/2.5/",
   };
-  const key = "f6a6088dd89c4d831fa227686a65be95";
+
   const fetchData = async () => {
     try {
       const response = await fetch(
